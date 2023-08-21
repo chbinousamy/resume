@@ -1,4 +1,4 @@
-name: Publish Resume in JSONResume format as Github Page
+name: Convert Resume from json to html
  
 on:
   push:
