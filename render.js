@@ -8,5 +8,5 @@ var resumeJSON = JSON.parse(fs.readFileSync(path.join(__dirname, '/resume.json')
 var resumeHTML = theme.render(resumeJSON);
 
 fs.writeFile(path.join(__dirname, '/docs/index.html'), resumeHTML, function(err) {
-    console.log(err || 'Resume exported to resume.html');
+    console.log(err || 'Resume exported to docs/index.html');
 });
