@@ -15,10 +15,10 @@ jobs:
       - 
         name: "Build html resume from json"
         run: |
-         echo $PWD
-         ls
          npm install --save jsonresume-theme-eloquent
          node render.js
+         ls
+         ls docs
       - 
         name: "Deploy to Pages"
         uses: JamesIves/github-pages-deploy-action@v4.4.1
