@@ -18,7 +18,7 @@ jobs:
          echo $PWD
          ls
          npm install --save jsonresume-theme-eloquent
-         npm run render.js
+         node render.js
       - 
         name: "Deploy to Pages"
         uses: JamesIves/github-pages-deploy-action@v4.4.1
