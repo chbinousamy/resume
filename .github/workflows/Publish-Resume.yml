@@ -16,6 +16,7 @@ jobs:
         name: "Build html resume from json"
         run: |
          echo $PWD
+         ls
          npm install --save jsonresume-theme-eloquent
          npm run render.js
       - 
