@@ -1,0 +1,776 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Samy CHBINOU</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #2895F1;
+}
+
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+p,
+li {
+  font-size: 11px;
+}
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
+}
+
+em {
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
+}
+
+ul li {
+  padding-left: 10px;
+}
+
+ul.minimal {
+  list-style: none;
+  padding: 0;
+}
+
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
+}
+
+ul.two-column li {
+  padding-left: 0;
+}
+
+@page {
+  size: A4;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
+}
+
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #56817A;
+}
+
+.summary {
+  margin: 5px 0 5px;
+}
+
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
+}
+
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
+}
+
+.references-container .fa {
+  font-size: 14px;
+}
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-skill {
+  font-size: 80%;
+}
+
+.skill {
+  margin: .15em;
+  padding: .15em;
+  background: ghostwhite;
+  border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>Samy CHBINOU</h1>
+            <h2>Software Engineer</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <div class="container about-container">
+            <div class="title">
+                <h3>About</h3>
+                <div class="keyline"></div>
+            </div>
+                <div class="info-tag-container">
+                    <i class="fa fa-map-marker"></i>
+                
+                        <h6 class="info-text"> ANTIBES   FR</h6>
+                </div>
+        
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-envelope-o"></i>
+                
+                        <h6 class="info-text">
+                            <a href="mailto:samy.chbinou@esna.cloud" target="_blank">
+                                samy.chbinou@esna.cloud
+                            </a>
+                        </h6>
+                </div>
+        
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-globe"></i>
+                
+                        <h6 class="info-text">
+                            <a href="https://www.esna.cloud" target="_blank">
+                                www.esna.cloud
+                            </a>
+                        </h6>
+                </div>
+        
+                                <div class="info-tag-container">
+                                    <i class="fa fa-linkedin-square"></i>
+                                
+                                        <h6 class="info-text">
+                                            <a href="https://www.linkedin.com/in/esna" target="_blank">
+                                                chbinousamy
+                                            </a>
+                                        </h6>
+                                </div>
+                                 <div class="info-tag-container">
+                                     <i class="fa fa-github"></i>
+                                 
+                                         <h6 class="info-text">
+                                             <a href="https://github.com/chbinousamy" target="_blank">
+                                                 chbinousamy
+                                             </a>
+                                         </h6>
+                                 </div>
+        </section>
+            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>Backend</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Senior</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Node</h6>
+                                    <h6 class="main-skill skill">Ruby</h6>
+                                    <h6 class="main-skill skill">Python</h6>
+                                    <h6 class="main-skill skill">Postgres</h6>
+                                    <h6 class="main-skill skill">Redis</h6>
+                                    <h6 class="main-skill skill">Serverless</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Devops</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Senior</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">AWS</h6>
+                                    <h6 class="main-skill skill">G Cloud</h6>
+                                    <h6 class="main-skill skill">Heroku</h6>
+                                    <h6 class="main-skill skill">Caching</h6>
+                            </div>
+                    </section>
+            </div>
+            <div class="container interests-container">
+                <div class="title">
+                    <h3>Interests</h3>
+                    <div class="keyline"></div>
+                </div>
+                    <section class="item">
+                            <h4 class="bold">Traveling</h4>
+                    </section>
+                    <section class="item">
+                            <h4 class="bold">DIY</h4>
+                    </section>
+                    <section class="item">
+                            <h4 class="bold">Gardening</h4>
+                    </section>
+                    <section class="item">
+                            <h4 class="bold">Open Source</h4>
+                    </section>
+            </div>
+      </aside>
+      <div class="right-column">
+                <div class="container summary-container">
+                    <div class="title">
+                        <h3>Summary</h3>
+                        <div class="keyline"></div>
+                    </div>            <p class="summary">
+                        I&#x27;m a full stack web developer who can build apps from the ground up. I&#x27;ve worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I&#x27;m generally very flexible when investigating new roles. 
+                    </p>
+                </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>Experience</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">05/2020</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Senior Javascript Developer</h4>
+        
+        
+                    <p class="summary">Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.</p>
+        
+                    <ul>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>SCSS</li>
+                        <li>Product</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">03/2018</span>
+                                <span class="endDate"> - 01/2020</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Senior Javascript Developer</h4>
+        
+        
+                    <p class="summary">Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.</p>
+        
+                    <ul>
+                        <li>React, Apollo, Styled Components</li>
+                        <li>Node.js / Rails</li>
+                        <li>Docker / Heroku / GCP</li>
+                        <li>Used Figma for design and UX work</li>
+                        <li>Optimizing markets with tens of millions of rows using SQL.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2016</span>
+                                <span class="endDate"> - 01/2018</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Developer</h4>
+        
+        
+                    <p class="summary">Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)</p>
+        
+                    <ul>
+                        <li>Worked with Postgres, Redis and Dynamodb for storage.</li>
+                        <li>Hosted on a mixture of Heroku Apps and EC2 servers.</li>
+                        <li>Caching by Fastly and Cloudflare</li>
+                        <li>Hybrid app supported on all platforms</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2011</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Co-Founder</h4>
+        
+        
+                    <p class="summary">Following Google&#x27;s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.</p>
+        
+                    <ul>
+                        <li>Millions of sites use the CDN in production</li>
+                        <li>Larger market share than Yahoo&#x27;s, Microsoft&#x27;s and Google&#x27;s javascript content distribution networks</li>
+                        <li>We serve hundreds of billions request a month</li>
+                        <li>Contains over 3000 popular Javascript libraries</li>
+                        <li>Millions of developers visit the site per year</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">04/2014</span>
+                                <span class="endDate"> - 01/2016</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Developer</h4>
+        
+        
+                    <p class="summary">Hired to take EFF&#x27;s campaigning to the next level by building an action centre in Ruby on Rails. The action centre is built around some large open source tools that lower the barrier to entry when contacting congress.</p>
+        
+                    <ul>
+                        <li>Developed new tools for contacting congress</li>
+                        <li>Brainstormed campaign ideas to raise maximum awareness about issues</li>
+                        <li>Lots of social networking integration</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">03/2013</span>
+                                <span class="endDate"> - 01/2015</span>
+                        </h5>
+                    </div>
+        
+                    <h4>CTO</h4>
+        
+        
+                    <p class="summary">Started off as a front end developer but took on the role of CTO in early 2013. The application frontend is built with Javascript and organized as a single page application that talks to a collection of Rails web servers which are connected to MongoDB.</p>
+        
+                    <ul>
+                        <li>Managed a small team of developers and designers</li>
+                        <li>Built the entire frontend application with Backbone.js</li>
+                        <li>Transferred all of the infrastructure from Heroku to AWS</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">04/2014</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Founder</h4>
+        
+        
+                    <p class="summary">JSON Resume is a community driven open source initiative to create a JSON based standard for resumes. There is no reason why there can&#x27;t be a common standard for writing a resume that can be extended with an ecosystem of open source tools.</p>
+        
+                    <ul>
+                        <li>This resume is built with JSON Resume</li>
+                        <li>Over 3000 stars on Github</li>
+                        <li>Community developed themes</li>
+                        <li>Tens of thousands of users</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">06/2013</span>
+                                <span class="endDate"> - 01/2016</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Developer</h4>
+        
+        
+                    <p class="summary">Worked on many politically charged campaigns against mass surveillance. Not only technically challenging work but also a lot of networking and getting my hands dirty with politics.    Our biggest project was &quot;TheDayWeFightBack&quot;..</p>
+        
+                    <ul>
+                        <li>Generated  37,000,000 banner views</li>
+                        <li>100, 000 phone calls to congress</li>
+                        <li>500, 000 emails</li>
+                        <li>250, 000 signatures</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2013</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Co-Founder</h4>
+        
+        
+                    <p class="summary">An international directory of civilian drone / UAV operators for hire. Services include aerial photography, aerial video, mapping, surveying, precision agriculture, real estate photography, remote inspections and infrared imaging. Our plan is to be the place to go when looking for UAV/Drone services. The website is built in Backbone.js and API is built with Node.js and Postgres. </p>
+        
+                    <ul>
+                        <li>The site and blog combined have managed to receive over 200,000 visitors in 2014.</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2011</span>
+                                <span class="endDate"> - 01/2014</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Founder</h4>
+        
+        
+                    <p class="summary">I write tutorials and blog post regarding the popular Javascript framework Backbone.js. The tutorials cover a range of topics regarding front end development aimed at beginners, experts and anyone in between.</p>
+        
+                    <ul>
+                        <li>Over two million unique visitors a year</li>
+                        <li>25,000+ ebook downloads</li>
+                        <li>300,000+ Youtube views</li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h5 class="italic pull-right">
+                                <span class="startDate">01/2011</span>
+                                <span class="endDate"> - 06/2012</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Front-end Developer</h4>
+        
+        
+                    <p class="summary">Ephox is a worldwide company who is heavily involved with the development of TinyMce and enterprise editors. My primary role included building front-end widgets and applications. Worked on a major product using Backbone.js as a base. Heavily involved in UI/UX design and wire-framing. Also spend a lot of time designing API specifications and documentation.</p>
+        
+                </section>
+        </div>
+        <div class="container education-container">
+            <div class="title">
+            <h3>Education</h3>
+            <div class="keyline"></div>
+        </div> 
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    CHALMERS - Göteborg, SWEDEN
+            </h3>
+            <h5 class="italic pull-right">
+            </h5>
+        </div>
+         
+                <h4>MSc. Engineer Digital Communication Systems &amp; Technology</h4>
+        
+              </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    IMT Atlantique (ex Télécom Bretagne)
+            </h3>
+            <h5 class="italic pull-right">
+            </h5>
+        </div>
+         
+                <h4>Engineer Telecom and Software Engineering</h4>
+        
+              </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
