@@ -1,6 +1,4 @@
-# example GitHub workflow
-
-name: Publish resume in JSONResume format as Github Page
+name: Publish Resume in JSONResume format as Github Page
  
 on:
   push:
