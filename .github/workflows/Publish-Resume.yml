@@ -8,16 +8,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - 
+        uses: actions/checkout@v2
         with:
          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-      - uses: kelvintaywl/action-jsonresume-export@v1
+      - 
+        uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
           theme: macchiato
           resume_filepath: resume.json
           output_filepath: docs/index.html
-      - name: "Deploy to Pages"
+      - 
+        name: Copy Photo
+        run: cp *.JPG docs/.
+      - 
+        name: "Deploy to Pages"
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
