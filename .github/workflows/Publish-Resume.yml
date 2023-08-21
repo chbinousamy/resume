@@ -13,12 +13,10 @@ jobs:
         with:
          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
       - 
-        uses: kelvintaywl/action-jsonresume-export@v1
-        name: Export resume as HTML
-        with:
-          theme: elegant
-          resume_filepath: resume.json
-          output_filepath: docs/index.html
+        name: "Build html resume from json"
+        run: |
+         npm install --save jsonresume-theme-eloquent
+         npm run
       - 
         name: "Deploy to Pages"
         uses: JamesIves/github-pages-deploy-action@v4.4.1
