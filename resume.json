@@ -93,11 +93,11 @@
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs",
       "location": "Nozay, Paris",
-      "position": "Software Engineer",
+      "position": "Platform Engineer",
       "startDate": "2014-10-03",
       "endDate": "2020-12-31",
       "highlights": [
-        "Docker, Kubernetes, Databases Storage, Private Cloud",
+        "Docker, Kubernetes, Databases Storage, Private Cloud and ServerLess platforms",
         "Nvidia GPU, FPGA",
         "Ethernet over Optical Fiber (RDMA)",
         "Machine learning and Neural Networks"
