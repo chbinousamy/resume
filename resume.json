@@ -104,7 +104,7 @@
       ]
     },
     {
-      "summary": "Ercom is a Thales Subsidiary. I worked in a 10 people Télécom team on Mobipass product, a Functionnal and Stress test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developped a User Interface in .NET C# language and did many tests on Network Data Encoding/Decoding",
+      "summary": "Ercom is a Thales Subsidiary. I worked in a 10 people Télécom team on Mobipass product, a Functionnal and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developped a User Interface in .NET C# language and did many tests on Network Data Encoding and Decoding.",
       "website": "https://www.ercom.fr/",
       "name": "Ercom, Thales Subsidiary",
       "location": "Vélizy, Paris",
@@ -115,7 +115,7 @@
         "Integration and Validation Tests",
         "Network Data Encoding and Decoding",
         "C# .NET UI software development",
-        "Functionnal and Stress tests of eNodeB and 4G/LTE Mobiles"
+        "Functionnal and Stress Tests of eNodeB and 4G/LTE Mobiles"
       ]
     }
   ],
