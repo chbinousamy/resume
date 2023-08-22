@@ -68,22 +68,24 @@
       "position": "DevOps Gitlab CI",
       "startDate": "2020-09-08",
       "endDate": "2020-10-25",
-      "highlights": ["Gitlab CI Pipelines on private Runners", "Docker Buildx Python Containers", "MaaS SRE", "Terraform on AWS"]
+      "highlights": [
+        "Gitlab CI Pipelines on private Runners",
+        "Docker Buildx Python Containers",
+        "MaaS SRE",
+        "Terraform on AWS"
+      ]
     },
     {
-      "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
-      "website": "https://platform.blockbid.io",
-      "name": "Blockbid",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2020-01-01",
+      "summary": "VALEO GEEDS.",
+      "website": "https://www.valeo.com/fr/valeo-ai/",
+      "name": "VALEO",
+      "location": "Créteil, Paris",
+      "position": "Artificial Intelligence Engineer",
+      "startDate": "2020-05-18",
+      "endDate": "2020-07-26",
       "highlights": [
-        "React, Apollo, Styled Components",
-        "Node.js / Rails",
-        "Docker / Heroku / GCP",
-        "Used Figma for design and UX work",
-        "Optimizing markets with tens of millions of rows using SQL."
+        "Docker Buildx Nvidia Containers",
+        "Assistance in relocating a Datacenter from Paris to Creteil"
       ]
     },
     {
