@@ -69,7 +69,7 @@
       "startDate": "2020-09-08",
       "endDate": "2020-10-25",
       "highlights": [
-        "Gitlab CI Pipelines on private Runners",
+        "CI pipelines on private Gitlab runners",
         "Docker Buildx Python Containers",
         "MaaS SRE",
         "Terraform on AWS"
