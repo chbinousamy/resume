@@ -28,15 +28,15 @@
   },
   "education": [
     {
-      "startDate": "1997",
-      "endDate": "1997",
+      "startDate": "1996-09",
+      "endDate": "1997-08",
       "area": "Digital Communication Systems & Technology",
       "studyType": "MSc. Engineer",
       "institution": "CHALMERS - Göteborg, SWEDEN"
     },
     {
-      "endDate": "1994",
-      "endDate": "1996",
+      "endDate": "1994-09",
+      "endDate": "1996-06",
       "area": "Telecom and Software Engineering",
       "studyType": "Engineer",
       "institution": "IMT Atlantique (ex Télécom Bretagne)"
@@ -44,7 +44,7 @@
   ],
   "skills": [
     {
-      "keywords": ["C", ".NET C#", "Python", "SQL", "YAML", "JSON", "HTML", "Javascript"],
+      "keywords": ["C", "C# .NET", "Python", "SQL", "YAML", "JSON", "HTML", "Javascript"],
       "level": "Senior",
       "name": "Programming Languages"
     },
