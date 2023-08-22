@@ -76,7 +76,7 @@
       ]
     },
     {
-      "summary": "VALEO GEEDS.",
+      "summary": "Valeo. In the transversal GEEDS entity, I assist in relocation of the R&D Datacenter from Paris to Créteil.",
       "website": "https://www.valeo.com/fr/valeo-ai/",
       "name": "VALEO",
       "location": "Créteil, Paris",
@@ -84,7 +84,7 @@
       "startDate": "2021-05-18",
       "endDate": "2021-07-26",
       "highlights": [
-        "Docker Buildx Nvidia Containers",
+        "Buildx Nvidia Docker Containers",
         "Assistance in relocating a Datacenter from Paris to Creteil"
       ]
     },
