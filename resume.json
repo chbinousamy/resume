@@ -61,18 +61,18 @@
   ],
   "work": [
     {
-      "summary": "NAVYA Drive delivers autonomous driving.",
+      "summary": "NAVYA Drive delivers autonomous driving. In a Agile team of 5 persons I added gitlab pipelines automation for Continuous Integration Tests.",
       "website": "https://www.navya.tech/en/",
       "name": "NAVYA",
       "location": "La Défense, Paris",
-      "position": "DevOps Gitlab CI",
+      "position": "DevOps",
       "startDate": "2020-09-08",
       "endDate": "2020-10-25",
       "highlights": [
         "CI pipelines on private Gitlab runners",
         "Docker Buildx Python Containers",
         "MaaS SRE",
-        "Terraform on AWS"
+        "Terraform on local VMs and AWS"
       ]
     },
     {
