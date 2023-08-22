@@ -102,6 +102,21 @@
         "Ethernet over Optical Fiber (RDMA)",
         "Machine learning and Neural Networks"
       ]
+    },
+    {
+      "summary": "Ercom is a Thales Subsidiary. I worked in a 10 people Télécom team on Mobipass product, a Functionnal and Stress test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developped a User Interface in .NET C# language and did many tests on Network Data Encoding/Decoding",
+      "website": "https://www.ercom.fr/",
+      "name": "Ercom, Thales Subsidiary",
+      "location": "Vélizy, Paris",
+      "position": "Software Engineer",
+      "startDate": "2006-04-01",
+      "endDate": "2013-04-30",
+      "highlights": [
+        "Integration and Validation Tests",
+        "Network Data Encoding and Decoding",
+        "C# .NET UI software development",
+        "Functionnal and Stress tests of eNodeB and 4G/LTE Mobiles"
+      ]
     }
   ],
   "interests": [
