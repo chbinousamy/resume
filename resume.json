@@ -61,13 +61,14 @@
   ],
   "work": [
     {
-      "summary": "Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.",
-      "website": "https://tokenized.com/",
-      "name": "Tokenized",
-      "location": "Melbourne",
-      "position": "Senior Javascript Developer",
-      "startDate": "2020-05-05",
-      "highlights": ["React", "Redux", "SCSS", "Product"]
+      "summary": "NAVYA Drive delivers autonomous driving.",
+      "website": "https://www.navya.tech/en/",
+      "name": "NAVYA",
+      "location": "La Défense, Paris",
+      "position": "DevOps Gitlab CI",
+      "startDate": "2020-09-08",
+      "endDate": "2020-10-25",
+      "highlights": ["Gitlab CI Pipelines on private Runners", "Docker Buildx Python Containers", "MaaS SRE", "Terraform on AWS"]
     },
     {
       "summary": "Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.",
