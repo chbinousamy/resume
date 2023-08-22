@@ -45,17 +45,17 @@
   "skills": [
     {
       "keywords": ["C", "C# .NET", "Python", "SQL", "YAML", "JSON", "HTML", "Javascript"],
-      "level": "Senior",
+      "level": "Experienced",
       "name": "Programming Languages"
     },
     {
       "keywords": ["Github", "Gitlab", "CI/CD Pipelines", "Docker"],
-      "level": "Senior",
-      "name": "Devops"
+      "level": "Experienced",
+      "name": "DevOps"
     },
     {
-      "keywords": ["Linux", "MacOS", "Kubernetes", "AWS EKS", "GCP GKE"],
-      "level": "Senior",
+      "keywords": ["Linux", "MacOS", "Kubernetes", "Serverless", "AWS EKS", "GCP GKE"],
+      "level": "Experienced",
       "name": "Platforms"
     }
   ],
