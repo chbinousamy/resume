@@ -66,8 +66,8 @@
       "name": "NAVYA",
       "location": "La Défense, Paris",
       "position": "DevOps",
-      "startDate": "2020-09-08",
-      "endDate": "2020-10-25",
+      "startDate": "2021-09-08",
+      "endDate": "2021-10-25",
       "highlights": [
         "CI pipelines on private Gitlab runners",
         "Docker Buildx Python Containers",
@@ -81,11 +81,26 @@
       "name": "VALEO",
       "location": "Créteil, Paris",
       "position": "Artificial Intelligence Engineer",
-      "startDate": "2020-05-18",
-      "endDate": "2020-07-26",
+      "startDate": "2021-05-18",
+      "endDate": "2021-07-26",
       "highlights": [
         "Docker Buildx Nvidia Containers",
         "Assistance in relocating a Datacenter from Paris to Creteil"
+      ]
+    },
+    {
+      "summary": "Nokia Bell Labs. I worked as freelance in a 'StartUp Garage'. I setup a small hardware platform to make some tests on different types of technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
+      "website": "https://www.bell-labs.com/",
+      "name": "Nokia Bell Labs",
+      "location": "Nozay, Paris",
+      "position": "Software Engineer",
+      "startDate": "2015-10-06",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "Docker, Kubernetes, Databases Storage, Private Cloud",
+        "Nvidia GPU, FPGA",
+        "Ethernet over Optical Fiber (RDMA)",
+        "Machine learning and Neural Networks"
       ]
     }
   ],
