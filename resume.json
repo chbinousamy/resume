@@ -69,7 +69,9 @@
       "summary": "NAVYA Drive delivers autonomous driving. In a Agile team of 5 persons I added Gitlab pipelines automation for Continuous Integration Tests. I also setup some Gitlab runners to handle load CI tests. Directly installed on Bare Metal and on some VMs, Virtualbox and AWS",
       "website": "https://www.navya.tech/en/",
       "name": "NAVYA",
-      "location": "La Défense, Paris",
+      "location": {
+        "city": "La Défense",
+      },
       "position": "DevOps",
       "startDate": "2021-09-08",
       "endDate": "2021-10-25",
@@ -84,7 +86,9 @@
       "summary": "Valeo. In the transversal GEEDS entity, I assist in relocation of the R&D Datacenter from Paris to Créteil.",
       "website": "https://www.valeo.com/fr/valeo-ai/",
       "name": "VALEO",
-      "location": "Créteil, Paris",
+       "location": {
+        "city": "Créteil",
+      },
       "position": "Artificial Intelligence Engineer",
       "startDate": "2021-05-18",
       "endDate": "2021-07-26",
