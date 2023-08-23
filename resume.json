@@ -70,7 +70,7 @@
       "website": "https://www.navya.tech/en/",
       "name": "NAVYA",
       "location": {
-        "city": "La Défense",
+        "city": "La Défense"
       },
       "position": "DevOps",
       "startDate": "2021-09-08",
@@ -87,7 +87,7 @@
       "website": "https://www.valeo.com/fr/valeo-ai/",
       "name": "VALEO",
        "location": {
-        "city": "Créteil",
+        "city": "Créteil"
       },
       "position": "Artificial Intelligence Engineer",
       "startDate": "2021-05-18",
@@ -101,7 +101,9 @@
       "summary": "Nokia Bell Labs. I worked as freelance in a 'StartUp Garage'. I setup a small hardware platform to make some tests on different types of technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs",
-      "location": "Nozay, Paris",
+       "location": {
+        "city": "Nozay"
+      },
       "position": "Platform Engineer",
       "startDate": "2014-10-03",
       "endDate": "2020-12-31",
@@ -116,7 +118,9 @@
       "summary": "Ercom is a Thales Subsidiary. I worked in a 10 people Télécom team on Mobipass product, a Functionnal and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developped a User Interface in .NET C# language and did many tests on Network Data Encoding and Decoding.",
       "website": "https://www.ercom.fr/",
       "name": "Ercom, Thales Subsidiary",
-      "location": "Vélizy, Paris",
+      "location": {
+        "city": "Vélizy"
+      },
       "position": "Software Test Engineer",
       "startDate": "2006-04-01",
       "endDate": "2013-04-30",
