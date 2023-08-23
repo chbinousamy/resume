@@ -1,9 +1,9 @@
-name: Build Resume from json to html and pdf
+name: Resume Build and Push
  
 on:
   workflow_dispatch:
-#  push:
-#    branches: [ main ]
+  push:
+   branches: [ main ]
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
         with:
          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
       - 
-        name: "Build html resume from json"
+        name: "Build Resume"
         run: |
           npm install --global resume-cli
           npm install jsonresume-theme-elegant
@@ -22,7 +22,7 @@ jobs:
           resume export --theme elegant --format pdf docs/resume.pdf
           ls docs
       - 
-        name: "Deploy to Pages"
+        name: "Push Resume to Pages"
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
