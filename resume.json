@@ -61,14 +61,14 @@
   ],
   "work": [
     {
-      "name": "Relocation",
+      "name": "Relocation, Antibes 06",
       "position": "Career Break",
       "startDate": "2021-10-25"
     },
     {
       "summary": "NAVYA Drive delivers autonomous driving. In a Agile team of 5 persons I added Gitlab pipelines automation for Continuous Integration Tests. I also setup some Gitlab runners to handle load CI tests. Directly installed on Bare Metal and on some VMs, Virtualbox and AWS",
       "website": "https://www.navya.tech/en/",
-      "name": "NAVYA",
+      "name": "NAVYA, La Défense 92",
       "location": {
         "city": "La Défense",
         "countryCode": "FR"
@@ -86,7 +86,7 @@
     {
       "summary": "Valeo. In the transversal GEEDS entity, I assist in relocation of the R&D Datacenter from Paris to Créteil.",
       "website": "https://www.valeo.com/fr/valeo-ai/",
-      "name": "VALEO",
+      "name": "VALEO, Créteil 94",
        "location": {
         "city": "Créteil",
         "countryCode": "FR"
@@ -102,7 +102,7 @@
     {
       "summary": "Nokia Bell Labs. I worked as freelance in a 'StartUp Garage'. I setup a small hardware platform to make some tests on different types of technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
       "website": "https://www.bell-labs.com/",
-      "name": "Nokia Bell Labs",
+      "name": "Nokia Bell Labs, Nozay 78",
        "location": {
         "city": "Nozay",
         "countryCode": "FR"
@@ -120,7 +120,7 @@
     {
       "summary": "Ercom is a Thales Subsidiary. I worked in a 10 people Télécom team on Mobipass product, a Functionnal and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developped a User Interface in .NET C# language and did many tests on Network Data Encoding and Decoding.",
       "website": "https://www.ercom.fr/",
-      "name": "Ercom, Thales Subsidiary",
+      "name": "Ercom, Thales Subsidiary, Vélizy 78",
       "location": {
         "city": "Vélizy",
         "countryCode": "FR"
