@@ -70,7 +70,8 @@
       "website": "https://www.navya.tech/en/",
       "name": "NAVYA",
       "location": {
-        "city": "La Défense"
+        "city": "La Défense",
+        "countryCode": "FR"
       },
       "position": "DevOps",
       "startDate": "2021-09-08",
@@ -87,7 +88,8 @@
       "website": "https://www.valeo.com/fr/valeo-ai/",
       "name": "VALEO",
        "location": {
-        "city": "Créteil"
+        "city": "Créteil",
+        "countryCode": "FR"
       },
       "position": "Artificial Intelligence Engineer",
       "startDate": "2021-05-18",
@@ -102,7 +104,8 @@
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs",
        "location": {
-        "city": "Nozay"
+        "city": "Nozay",
+        "countryCode": "FR"
       },
       "position": "Platform Engineer",
       "startDate": "2014-10-03",
@@ -119,7 +122,8 @@
       "website": "https://www.ercom.fr/",
       "name": "Ercom, Thales Subsidiary",
       "location": {
-        "city": "Vélizy"
+        "city": "Vélizy",
+        "countryCode": "FR"
       },
       "position": "Software Test Engineer",
       "startDate": "2006-04-01",
