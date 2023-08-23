@@ -153,16 +153,13 @@
   ],
   "interests": [
     {
-      "name": "Traveling"
+      "name": "Open Source"
+    },
+        {
+      "name": "Photography"
     },
     {
       "name": "DIY"
-    },
-    {
-      "name": "Gardening"
-    },
-    {
-      "name": "Open Source"
     }
   ]
 }
