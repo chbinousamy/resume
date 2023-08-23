@@ -113,7 +113,7 @@
       "endDate": "2013-04-30",
       "highlights": [
         "Integration and Validation Tests",
-        "Network Data Encoding and Decoding",
+        "Network Data Blocks Encoding and Decoding",
         "C# .NET UI software development",
         "Functionnal and Stress Tests of eNodeB and 4G/LTE Mobiles"
       ]
