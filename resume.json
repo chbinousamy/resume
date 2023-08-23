@@ -10,7 +10,9 @@
     "website": "https://chbinousamy.github.io/resume/resume.pdf",
     "email": "samy.chbinou@esna.cloud",
     "location": {
-      "city": "Imp Juan, ANTIBES"
+      "address": "Imp Juan",
+      "city": "ANTIBES",
+      "countryCode": "FR",
     },
     "profiles": [
       {
@@ -58,6 +60,20 @@
       "name": "Platforms"
     }
   ],
+  "languages": [
+  {
+    "language": "English",
+    "fluency": "Fluent"
+  },
+  {
+    "language": "Italian",
+    "fluency": "Fluent"
+  },
+  {
+    "language": "French",
+    "fluency": "Native speaker"
+  }  
+  ]
   "work": [
     {
       "name": "Relocation, Antibes 06",
