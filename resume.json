@@ -62,7 +62,8 @@
   "work": [
     {
       "name": "Relocation",
-      "position": "Career Break"
+      "position": "Career Break",
+      "startDate": "2021-10-25"
     },
     {
       "summary": "NAVYA Drive delivers autonomous driving. In a Agile team of 5 persons I added Gitlab pipelines automation for Continuous Integration Tests. I also setup some Gitlab runners to handle load CI tests. Directly installed on Bare Metal and on some VMs, Virtualbox and AWS",
