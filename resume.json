@@ -117,7 +117,7 @@
       ]
     },
     {
-      "summary": "Nokia Bell Labs. Cloud RAN Entity, a private Cloud for Radio Access Networks which connects radio devices, UE, IoT, Automotive, Virtual Reality. I worked as freelance in a 'StartUp Garage'. I setup a small hardware platform to make some tests on different types of technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
+      "summary": "Nokia Bell Labs. Cloud RAN Entity, a private Cloud for Radio Access Networks which connects radio devices, UE, IoT, Automotive, Virtual Reality. I worked as freelance in a 'StartUp Garage'. I setup a small hardware platform to make some tests on different types of Cloud Native technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs, Nozay 78",
        "location": {
@@ -130,7 +130,7 @@
       "highlights": [
         "Benchmarking CPU Offloading on Nvidia GPU, Xilinx FPGA",
         "Benchmarking Ethernet over Optical Fiber (RDMA)",
-        "N-Tiers Microservices Architectures: Docker, NoSQL Databases, Kubernetes, ServerLess platforms",
+        "N-Tiers Microservices Cloud Native Architectures: Docker, NoSQL Databases, Kubernetes, ServerLess platforms",
         "Machine learning and Neural Networks Data engineering"
       ]
     },
