@@ -128,7 +128,7 @@
       "startDate": "2014-10-03",
       "endDate": "2020-12-31",
       "highlights": [
-        "Docker, Kubernetes, Databases Storage, Private Cloud and ServerLess platforms",
+        "n-Tiers Architectures: Docker, Kubernetes, Databases, Private Cloud and ServerLess platforms",
         "Machine learning and Neural Networks Data engineering",
         "Benchmarking CPU Offloading on Nvidia GPU, FPGA",
         "Benchmarking Ethernet over Optical Fiber (RDMA)"
