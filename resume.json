@@ -128,9 +128,9 @@
       "startDate": "2014-10-03",
       "endDate": "2020-12-31",
       "highlights": [
-        "Benchmarking CPU Offloading on Nvidia GPU, FPGA",
+        "Benchmarking CPU Offloading on Nvidia GPU, Xilinx FPGA",
         "Benchmarking Ethernet over Optical Fiber (RDMA)",
-        "N-Tiers Architectures: Docker, Kubernetes, Databases, ServerLess platforms",
+        "N-Tiers Architectures: Docker, NoSQL Databases, Kubernetes, ServerLess platforms",
         "Machine learning and Neural Networks Data engineering"
       ]
     },
