@@ -95,9 +95,7 @@
       "endDate": "2021-10-25",
       "highlights": [
         "CI pipelines on Gitlab runners",
-        "Docker Buildx Python Containers",
-        "MaaS SRE",
-        "Terraform on local VMs and AWS"
+        "Docker Buildx Python Containers"
       ]
     },
     {
