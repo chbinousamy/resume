@@ -110,7 +110,7 @@
       "startDate": "2021-05-18",
       "endDate": "2021-07-08",
       "highlights": [
-        "Buildx Nvidia Docker Containers",
+        "Buildx Nvidia python Docker Containers",
         "Assistance in relocating a Datacenter from Paris to Creteil"
       ]
     },
@@ -151,7 +151,7 @@
       "endDate": "2013-04-12",
       "highlights": [
         "Integration and Validation Tests",
-        "Network Datagram Blocks Encoding and Decoding",
+        "Processing Network Datagram Blocks: Cut and Reassemble, Encode/Decode",
         "C# .NET UI software development",
         "Functionnal and Stress Tests of eNodeB and 4G/LTE Mobiles"
       ]
