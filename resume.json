@@ -151,7 +151,7 @@
       "endDate": "2013-04-12",
       "highlights": [
         "Integration and Validation Tests",
-        "Processing Network Datagram Blocks: Cut and Reassemble, Encode/Decode",
+        "Processing Network Datagram Blocks: Cut & Reassemble, Encode & Decode",
         "C# .NET UI software development",
         "Functionnal and Stress Tests of eNodeB and 4G/LTE Mobiles"
       ]
