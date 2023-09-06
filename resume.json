@@ -52,12 +52,12 @@
       "name": "Programming Languages"
     },
     {
-      "keywords": ["Github CI/CD Actions", "Gitlab CI/CD", "Docker", "Artifacts"],
+      "keywords": ["Github CI/CD Actions", "Gitlab CI/CD", "Docker Containers", "Microservices Artifacts"],
       "level": "Experienced",
       "name": "DevOps"
     },
     {
-      "keywords": ["Linux ARM", "MacOS M1", "Kubernetes", "Helm", "Serverless", "AWS EKS", "GCP GKE"],
+      "keywords": ["Linux ARM", "MacOS M1", "Kubernetes", "Helm", "Serverless", "AWS EKS", "GCP GKE", "Azure "],
       "level": "Experienced",
       "name": "Platforms"
     }
