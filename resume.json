@@ -52,7 +52,7 @@
       "name": "Programming Languages"
     },
     {
-      "keywords": ["Github", "Gitlab", "CI/CD Pipelines", "Docker", "Netdata"],
+      "keywords": ["Github CI/CD Actions", "Gitlab CI/CD", "Docker", "Artifacts"],
       "level": "Experienced",
       "name": "DevOps"
     },
