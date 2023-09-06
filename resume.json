@@ -57,7 +57,7 @@
       "name": "DevOps"
     },
     {
-      "keywords": ["Linux ARM", "MacOS M1", "Kubernetes", "Helm", "Serverless", "AWS EKS", "GCP GKE", "Azure "],
+      "keywords": ["Linux ARM", "MacOS M1", "Kubernetes", "Helm", "Serverless"],
       "level": "Experienced",
       "name": "Platforms"
     }
