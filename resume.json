@@ -115,7 +115,7 @@
       ]
     },
     {
-      "summary": "Nokia Bell Labs. Cloud RAN Entity, Cloud for Radio Access Networks which interconnects radio devices such as Phones, IoT, Automotive, Virtual Reality User Equipments. I worked as freelance in a 'StartUp Garage'. I setup a On-Prems, PaaS context to make some tests on different types of Cloud Native technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
+      "summary": "Nokia Bell Labs. Cloud RAN Entity, Cloud for Radio Access Networks which interconnects UE radio devices such as Phones, IoT, Automotive, Virtual Reality User Equipments. I worked as freelance in a 'StartUp Garage'. I setup a On-Prems, PaaS context to make some tests on different types of Cloud Native 5G technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs, Nozay 78",
        "location": {
@@ -139,9 +139,9 @@
       "endDate": "2014-10-03"
     },
     {
-      "summary": "Ercom is a Thales Subsidiary. I worked in a 10 person Télécom team on the Mobipass product, a Functional and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developed a User Interface in .NET C# language and did many tests on the TCP/IP Network.",
+      "summary": "Ercom. I worked in a 10 person Télécom team on the Mobipass product, a Functional and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developed a User Interface in .NET C# language and did many tests on the TCP/IP Network.",
       "website": "https://www.ercom.fr/",
-      "name": "Ercom, Thales Subsidiary, Vélizy 78",
+      "name": "Ercom, Vélizy 78",
       "location": {
         "city": "Vélizy",
         "countryCode": "FR"
