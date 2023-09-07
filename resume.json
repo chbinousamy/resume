@@ -150,10 +150,9 @@
       "startDate": "2006-12-19",
       "endDate": "2013-04-12",
       "highlights": [
-        "Integration and Validation Tests",
         "Processing Network Datagram Blocks: Cut & Reassemble, Encode & Decode",
-        "C# .NET UI software development",
-        "Functional and Stress Tests of eNodeB and 4G/LTE Mobiles"
+        "Object Oriented Programing to Design and Develop the UI in C# .NET",
+        "Continuous Integration and Validation Tests"
       ]
     }
   ],
