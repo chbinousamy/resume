@@ -62,14 +62,14 @@
       "name": "Database Languages"
     },
     {
-      "keywords": ["Github CI/CD Actions", "Gitlab CI/CD Pipelines", "Docker Containers", "Microservices Artifacts"],
+      "keywords": ["Github CI/CD Actions", "Gitlab CI/CD Pipelines", "Build Artifacts", "Docker Containers", "Kubernetes Pods", "Helm"],
       "level": "Experienced",
       "name": "DevOps"
     },
     {
-      "keywords": ["Linux ARM", "MacOS M1", "Kubernetes", "Helm", "Serverless"],
+      "keywords": ["Linux ARM & Intel", "MacOS M1 & Intel"],
       "level": "Experienced",
-      "name": "Platforms"
+      "name": "Processors Architecture"
     }
   ],
   "languages": [
