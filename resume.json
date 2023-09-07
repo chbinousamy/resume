@@ -49,7 +49,17 @@
     {
       "keywords": ["C", "C# .NET", "Python", "SQL", "YAML", "WEB", "JSON", "HTML", "Javascript"],
       "level": "Experienced",
-      "name": "Programming Languages"
+      "name": "Object Programming Languages"
+    },
+    {
+      "keywords": ["Shell", "YAML", "JavaScript", "Python"],
+      "level": "Experienced",
+      "name": "Scripting Languages"
+    },
+    {
+      "keywords": ["SQL", "NoSQL, Key Value Store"],
+      "level": "Experienced",
+      "name": "Database Languages"
     },
     {
       "keywords": ["Github CI/CD Actions", "Gitlab CI/CD Pipelines", "Docker Containers", "Microservices Artifacts"],
