@@ -47,7 +47,7 @@
   ],
   "skills": [
     {
-      "keywords": ["C", "C# .NET", "Python", "SQL", "YAML", "WEB", "JSON", "HTML", "Javascript"],
+      "keywords": ["C/C++", "C# .NET", "Java"],
       "level": "Experienced",
       "name": "Object Programming Languages"
     },
