@@ -67,7 +67,7 @@
       "name": "DevOps"
     },
     {
-      "keywords": ["Linux ARM & Intel", "MacOS M1 & Intel"],
+      "keywords": ["Linux Intel & ARM", "MacOS Intel & M1"],
       "level": "Experienced",
       "name": "Processors Architecture"
     }
