@@ -99,7 +99,7 @@
       ]
     },
     {
-      "summary": "Valeo. In the transversal GEEDS entity, I assist in relocation of the R&D Datacenter from Paris to Créteil.",
+      "summary": "Valeo, In the transversal GEEDS entity, I assist in relocation of the R&D Datacenter from Paris to Créteil.",
       "website": "https://www.valeo.com/fr/valeo-ai/",
       "name": "VALEO, Créteil 94",
        "location": {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "summary": "Nokia Bell Labs. Cloud RAN Entity, Cloud for Radio Access Networks which interconnects UE radio devices such as Phones, IoT, Automotive, Virtual Reality User Equipments. I worked as freelance in a 'StartUp Garage'. I setup a On-Prems, PaaS context to make some tests on different types of Cloud Native 5G technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
+      "summary": "Nokia Bell Labs, Cloud RAN Entity, Cloud for Radio Access Networks which interconnects UE radio devices such as Phones, IoT, Automotive, Virtual Reality User Equipments. I worked as freelance in a 'StartUp Garage'. I setup a On-Prems, PaaS context to make some tests on different types of Cloud Native 5G technologies: storage databases, ethernet over fiber, docker containers and kubernetes clusters, Machine Learning DevOps pipelines",
       "website": "https://www.bell-labs.com/",
       "name": "Nokia Bell Labs, Nozay 78",
        "location": {
@@ -139,9 +139,9 @@
       "endDate": "2014-10-03"
     },
     {
-      "summary": "Ercom. I worked in a 10 person Télécom team on the Mobipass product, a Functional and Stress Test for eNodeB and 4G/LTE Mobiles. As Software engineer, I developed a User Interface in .NET C# language and did many tests on the TCP/IP Network.",
+      "summary": "Ercom, Mobipass®, I developped the Mobipass® project with a 5-100 person Télécom team to make it a recognized software product. Mobipass® is a lab-based emulation product capable of precise reproduction of the behaviors of thousands of devices with mixed traffic calls and RF conditions experienced on a real network. Its easy-to-use GUI, advanced multi-UE channel emulator, integrated QoS and QoE test features and rich KPI capabilities make it a strong test and measurement addition for mobile network operators deploying advanced broadband networks. As Software engineer, I developed the GUI, User Interface in .NET C# language and did many tests on the TCP/IP Network.",
       "website": "https://www.ercom.fr/",
-      "name": "Ercom, Vélizy 78",
+      "name": "Ercom Mobipass®, Vélizy 78",
       "location": {
         "city": "Vélizy",
         "countryCode": "FR"
