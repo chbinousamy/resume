@@ -62,6 +62,11 @@
       "name": "Database Languages"
     },
     {
+      "keywords": ["tcp/ip", "websocket", "kafka"],
+      "level": "Experienced",
+      "name": "Networking & Streaming"
+    },
+    {
       "keywords": ["Github CI/CD Actions", "Gitlab CI/CD Pipelines", "Build Artifacts", "Docker Containers", "Kubernetes Pods", "Helm"],
       "level": "Experienced",
       "name": "DevOps"
