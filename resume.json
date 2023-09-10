@@ -47,7 +47,7 @@
   ],
   "skills": [
     {
-      "keywords": ["C/C++", "C# .NET", "Java"],
+      "keywords": ["C/C++", "C# .NET", "Java", "Cross-Compilers"],
       "level": "Experienced",
       "name": "Object Programming Languages"
     },
