@@ -77,10 +77,10 @@
       "name": "Processors Architecture"
     },
     {
-      "keywords": ["Google Colab", "Google Storage", "Tensorflow", "ONNX", "OpenVino", "Nvidia"],
+      "keywords": ["Google Colab", "Google Storage", "Tensorflow", "ONNX", "OpenVino", "Nvidia", "Kubeflow"],
       "level": "Experienced",
       "name": "MLOps"
-    },
+    }
   ],
   "languages": [
   {
