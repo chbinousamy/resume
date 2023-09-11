@@ -72,14 +72,14 @@
       "name": "DevOps"
     },
     {
-      "keywords": ["Linux Intel & ARM", "MacOS Intel & M1", "Cross-Compilers"],
-      "level": "Experienced",
-      "name": "Processors Architecture"
-    },
-    {
       "keywords": ["Google Colab", "Google Storage", "Tensorflow", "ONNX", "OpenVino", "Nvidia", "Kubeflow"],
       "level": "Experienced",
       "name": "MLOps"
+    },
+    {
+      "keywords": ["Linux Intel & ARM", "MacOS Intel & M1", "Cross-Compilers"],
+      "level": "Experienced",
+      "name": "Processors Architecture"
     }
   ],
   "languages": [
