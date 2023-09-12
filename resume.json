@@ -79,7 +79,7 @@
     {
       "keywords": ["Linux Intel & ARM", "MacOS Intel & M1", "Cross-Compilers"],
       "level": "Experienced",
-      "name": "Processors Architecture"
+      "name": "Target Processors"
     }
   ],
   "languages": [
