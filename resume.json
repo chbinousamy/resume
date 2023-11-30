@@ -98,13 +98,17 @@
   ],
   "work": [
     {
-      "Summary": "Currently at a standstill, I am positioning myself in solid structures that help me to move forward.",
+      "summary": "I am positioning myself in solid structures that help me to move forward.",
       "website": "https://github.com/chbinousamy",
-      "name": "GitHub",
+      "name": "GitHub, Antibes 06",
+      "location": {
+        "city": "Antibes",
+        "countryCode": "FR"
+      },
       "position": "GitOps",
       "startDate": "2021-11-01",
       "highlights": [
-        "CI pipelines on Github cloud and self hosted runners",
+        "CI YAML pipelines on Github cloud and self hosted runners",
         "Docker Buildx Containers",
         "Kubernetes Builds and tests"
       ]
