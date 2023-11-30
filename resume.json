@@ -98,9 +98,16 @@
   ],
   "work": [
     {
-      "name": "Relocation, Antibes 06",
-      "position": "Career Break",
-      "startDate": "2021-10-25"
+      "Summary": "Currently at a standstill, I am positioning myself in solid structures that help me to move forward.",
+      "website": "https://github.com/chbinousamy",
+      "name": "GitHub",
+      "position": "GitOps",
+      "startDate": "2021-11-01",
+      "highlights": [
+        "CI pipelines on Github cloud and self hosted runners",
+        "Docker Buildx Containers",
+        "Kubernetes Builds and tests"
+      ]
     },
     {
       "summary": "NAVYA Drive delivers autonomous driving. In a Agile team of 5 persons I added Gitlab pipelines automation for Continuous Integration Tests. I also setup some Gitlab runners to handle load CI tests. Directly installed on Bare Metal and on some VMs, Virtualbox and AWS",
