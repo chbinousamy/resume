@@ -108,9 +108,9 @@
       "position": "GitOps",
       "startDate": "2021-11-01",
       "highlights": [
-        "CI YAML pipelines on Github cloud and self hosted runners",
-        "Docker Buildx Containers",
-        "Kubernetes Builds and tests"
+        "Fork and Clone repositories.",
+        "Add and Run Continuous Integrations workflows to build and test artifacts",
+        "Deploy artifacts"
       ]
     },
     {
