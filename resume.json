@@ -62,7 +62,7 @@
       "name": "Database Languages"
     },
     {
-      "keywords": ["tcp/ip", "websocket", "kafka"],
+      "keywords": ["TCP/IP", "websocket", "MQTT", "CAN"],
       "level": "Experienced",
       "name": "Networking & Streaming"
     },
