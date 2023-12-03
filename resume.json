@@ -98,14 +98,14 @@
   ],
   "work": [
     {
-      "summary": "I add pipelines jobs to position myself in solid structures that help me to move forward.",
+      "summary": "I add github workflows to position myself in solid structures that help me to move forward.",
       "website": "https://github.com/chbinousamy",
       "name": "GitHub, Antibes 06",
       "location": {
         "city": "Antibes",
         "countryCode": "FR"
       },
-      "position": "GitOps",
+      "position": "Continuous Integration Engineer",
       "startDate": "2021-11-01",
       "highlights": [
         "Fork and Clone repositories.",
@@ -153,7 +153,7 @@
         "city": "Nozay",
         "countryCode": "FR"
       },
-      "position": "Platform Engineer",
+      "position": "Cloud Native Engineer",
       "startDate": "2014-10-03",
       "endDate": "2020-12-31",
       "highlights": [
