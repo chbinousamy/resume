@@ -125,8 +125,9 @@
       "startDate": "2021-09-08",
       "endDate": "2021-10-25",
       "highlights": [
-        "CI pipelines on Gitlab self hosted runners",
-        "Docker Buildx Python Containers"
+        "Continuous Integration GitLab pipelines on self hosted runners",
+        "Build Docker Python Containers",
+        "Build Virtual Machines MaaS images"
       ]
     },
     {
