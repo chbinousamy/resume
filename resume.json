@@ -108,9 +108,8 @@
       "position": "Continuous Integration Engineer",
       "startDate": "2021-11-01",
       "highlights": [
-        "Fork and Clone repositories.",
-        "Add and Run Continuous Integrations workflows to build and test artifacts",
-        "Deploy artifacts"
+        "Add Continuous Integrations workflows to Build and Test packages",
+        "Build and Deploy Docker Containers"
       ]
     },
     {
