@@ -164,28 +164,6 @@
         "N-Tiers Microservices Architectures: Docker, NoSQL Databases, Kubernetes, Cloud Native Serverless",
         "Machine learning and Neural Networks Data engineering"
       ]
-    },
-    {
-      "position": "Career Break",
-      "startDate": "2013-04-12",
-      "endDate": "2014-10-03"
-    },
-    {
-      "summary": "Ercom, Mobipass®, I developped the Mobipass® project with a 5-100 person Télécom team to make it a recognized working software product. Mobipass® is a lab-based emulation product capable of precise reproduction of the behaviors of thousands of devices with mixed traffic calls and RF conditions experienced on a real network. Its easy-to-use GUI, advanced multi-UE channel emulator, integrated QoS and QoE test features and rich KPI capabilities make it a strong test and measurement addition for mobile network operators deploying advanced broadband networks. As Software engineer, I developed the GUI, User Interface in .NET C# language and did many tests on the TCP/IP Network.",
-      "website": "https://www.ercom.fr/",
-      "name": "Ercom Mobipass®, Vélizy 78",
-      "location": {
-        "city": "Vélizy",
-        "countryCode": "FR"
-      },
-      "position": "Software Test Engineer",
-      "startDate": "2006-12-19",
-      "endDate": "2013-04-12",
-      "highlights": [
-        "Processing Network Datagram Blocks: Cut & Reassemble, Encode & Decode",
-        "Object Oriented Programing to Design and Develop the UI in C# .NET",
-        "Night Builds, Continuous Integration and Validation Tests"
-      ]
     }
   ],
   "interests": [
