@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - 
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
       - 
@@ -25,7 +25,7 @@ jobs:
           ls docs
       - 
         name: "Push Resume to Pages"
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FOLDER: docs/  # <- Dossier contenant notre documentation générée
